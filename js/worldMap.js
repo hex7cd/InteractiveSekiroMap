@@ -12,7 +12,8 @@ let nodes = [
         'icon': 'owl.png',
         'phase': 2,
         'x': 289,
-        'y': 827
+        'y': 827,
+        'revealed_by': [38]
     },
     { // 2
         'name': 'LADY BUTTERFLY',
@@ -316,7 +317,6 @@ let nodes = [
         'type': 'encounter_mjr',
         'icon': 'owl.png',
         'phase': 2,
-        'items': ['aromatic_branch'],
         'x': 2110,
         'y': 350,
         'revealed_by_and': [160, 151, 152],

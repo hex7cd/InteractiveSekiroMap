@@ -118,9 +118,6 @@ let toggleNodeDiscovered = (index) => {
     if(index == 0){ // dont allow dilapidated temple to be disabled
         return;
     }
-    if((discovered[37] || discovered[30]) && !(index == 37 || index == 30)){
-        return;
-    }
     discovered[index] = !discovered[index];
 }
 let check = undefined;
